@@ -5,8 +5,10 @@ Version:	0.0.1
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	http://www.fe.msk.ru/~vitus/catdoc/%{name}-%{version}.tar.gz
-URL:		http://www.fe.msk.ru/~vitus/catdoc/xls2csv.html
+#Source0:	http://www.45.free.net/~vitus/ice/catdoc/%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
+# Source0-md5:	f86f307c581c08de40293bfd3ceaae3b
+URL:		http://www.45.free.net/~vitus/ice/catdoc/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
