@@ -1,4 +1,4 @@
-# $Revision: 1.2 $ $Date: 2001-08-27 20:11:19 $
+# $Revision: 1.3 $ $Date: 2001-08-28 14:54:50 $
 Summary:	MS Excel XLS to CSV converter
 Summary(pl):	Konwerter plików MS Excel XLS do CSV
 Name:		xls2csv
@@ -27,8 +27,8 @@ Konwerter plików MS Excel XLS do CSV.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install %{name} $RPM_BUILD_ROOT%{_bindir}
 
 %clean
