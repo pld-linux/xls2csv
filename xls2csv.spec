@@ -1,4 +1,4 @@
-# $Revision: 1.5 $ $Date: 2002-02-22 23:30:06 $
+# $Revision: 1.6 $ $Date: 2003-05-25 06:28:22 $
 Summary:	MS Excel XLS to CSV converter
 Summary(pl):	Konwerter plików MS Excel XLS do CSV
 Name:		xls2csv
