@@ -1,4 +1,4 @@
-# $Revision: 1.4 $ $Date: 2002-01-18 02:15:40 $
+# $Revision: 1.5 $ $Date: 2002-02-22 23:30:06 $
 Summary:	MS Excel XLS to CSV converter
 Summary(pl):	Konwerter plików MS Excel XLS do CSV
 Name:		xls2csv
@@ -6,9 +6,6 @@ Version:	0.0.1
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Group(de):	Applikationen/Text
-Group(fr):	Utilitaires/Texte
-Group(pl):	Aplikacje/Tekst
 Source0:	http://www.fe.msk.ru/~vitus/catdoc/%{name}-%{version}.tar.gz
 URL:		http://www.fe.msk.ru/~vitus/catdoc/xls2csv.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
