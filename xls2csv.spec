@@ -1,5 +1,5 @@
 Summary:	MS Excel XLS to CSV converter
-Summary(pl):	Konwerter plików MS Excel XLS do CSV
+Summary(pl.UTF-8):   Konwerter plikÃ³w MS Excel XLS do CSV
 Name:		xls2csv
 Version:	0.0.1
 Release:	1
@@ -14,8 +14,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 MS Excel XLS to CSV converter.
 
-%description -l pl
-Konwerter plików MS Excel XLS do CSV.
+%description -l pl.UTF-8
+Konwerter plikÃ³w MS Excel XLS do CSV.
 
 %prep
 %setup -q
